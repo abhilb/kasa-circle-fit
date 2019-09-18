@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Circle fit using Kasa method</title>
+        <link href="style/default.css" type="text/css" rel="stylesheet" media="all"/>
+    </head>
+    <body>
+        <h1>Kasa fit algorithm demo</h1>
+        <h2>Introduction</h2>
+        <h2>Implementation</h2>
+        <p>This is based on the <em>C++</em> implentation of the Kasa fit algorithm by Nikolai Chernov.The reset button in the demo generated a set of random points and
+        the run button executes the Kasa fit algorithm to find the best fitting circle.</p>
+        <h2>Demo</h2>
+        <p>
+            <canvas id="kasafit-demo-canvas" height="512" width="512"><canvas>
+            <p>
+                <button id="reset-btn" onclick="on_reset()">Reset</button>
+                <button id="run-btn" onclick="on_run()">Run</button>
+            </p>
+        </p>
+        <script src="script/kasafit.js"></script>
+    </body>
+</html>

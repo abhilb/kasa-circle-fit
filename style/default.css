@@ -1,0 +1,17 @@
+h1
+{
+    color: #F60;
+    font-weight: bold
+}
+
+body
+{
+    font-size: 12pt;
+}
+
+button
+{
+    background-color: #060;
+    font-size: 15pt;
+    width: 200;
+}
